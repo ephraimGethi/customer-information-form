@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <style>
+            input,select {
+                box-shadow: 1px 1px 1px black;
+                border-radius: 5px;
+            }
+    table {
+        width: 100%;
+        background-color: white;
+    }
+    form {
+        box-shadow: 15px 15px 15px black;
+        border-style: solid;
+        border-color: grey;
+    }
+    .inputstyle {
+        width: 90%;
+    }
+    .input {
+        width: 95%;
+    }
+</style>
+    </head>
+    <body>
+        <form action="ephraim.php" method="post">
+            <table>
+       <h1><legend>customer information:</legend></h1>
+        <hr>
+<tr>
+    <td colspan="2">
+        <h2>customer name</h2>
+
+        </td>
+</tr>
+<tr>
+<td>
+    <input class="inputstyle" type="text" name="first name"><br>
+    first name
+</td>
+<td>
+    <input class="inputstyle" type="text" name="last name "><br>
+    last name
+</td>
+</tr>
+<tr>
+    <td colspan="2">
+        <h2>address</h2>
+        </td>
+</tr>
+<tr>
+    <td colspan="2">
+    <input class="input" class="inputstyle" type="number" name="street address "><br>
+    street address
+    </td>
+</tr>
+<tr>
+    <td colspan="2">
+       <input class="input"  type="number" name=" street address line 2"><br>
+       street address line 2
+    </td>
+</tr>
+<tr>
+    <td>
+        <input class="inputstyle" type="text" name="city"><br>
+        city
+    </td>
+    <td>
+        <input class="inputstyle" type="text" name="state/province"><br>
+        state/province
+    </td>
+</tr>
+<tr>
+    <td>
+        <input class="inputstyle" type="number" name="poster/zip code"><br>
+        poster/zip code
+    </td>
+    <td>
+        <select class="inputstyle" name="countrys">
+            <option value="">please choose country</option>
+            <option value="kenya">kenya</option>
+            <option value="uganda">uganda</option>
+        </select><br>
+        country
+    </td>
+</tr>
+<tr>
+    <td colspan="2">
+        <h2>contact number</h2>
+        </td>
+</tr>
+<tr>
+   <td colspan="2"  >
+        <input style="width: 45%;" type="number" name="telephone"><br>
+        telephone number
+   </td>
+</tr>
+<tr>
+    <td colspan="2" >
+        <input type="submit" name="submit" value="submit your details">
+    </td>
+</tr>
+            </table>
+    </form>
+    </body>
+</html>
